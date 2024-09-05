@@ -1,0 +1,8 @@
+/home/edgeboard/Desktop/sasu2024/build/CMakeFiles/collection.dir
+/home/edgeboard/Desktop/sasu2024/build/CMakeFiles/img2video.dir
+/home/edgeboard/Desktop/sasu2024/build/CMakeFiles/calibration.dir
+/home/edgeboard/Desktop/sasu2024/build/CMakeFiles/perspective_test.dir
+/home/edgeboard/Desktop/sasu2024/build/CMakeFiles/camera.dir
+/home/edgeboard/Desktop/sasu2024/build/CMakeFiles/icar.dir
+/home/edgeboard/Desktop/sasu2024/build/CMakeFiles/edit_cache.dir
+/home/edgeboard/Desktop/sasu2024/build/CMakeFiles/rebuild_cache.dir
