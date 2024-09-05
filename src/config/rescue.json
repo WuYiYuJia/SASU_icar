@@ -1,0 +1,21 @@
+{
+    "DangerClose": 150,
+    "ServoRow": 60,
+    "ServoRow2":17,
+    "ServoRow3":50,
+    "ServoValue": 20,
+    "DelayCnt": 1,
+    "BrakeCnt": 20,
+    "Backsize":130,
+    "record": [
+        {
+            "#DangerClose": "智能车危险距离",
+            "#ServoRow": "入库打角行",
+            "#ServoRow2": "新增的第二个入库打角行变量",
+            "#ServoValue": "入库打角程度,越小打角越大",
+            "#DelayCnt": "刚进入救援区延时",
+            "#BrakeCnt": "智能车刹车反转帧数",
+            "Backsize": "回正限制"
+        }
+    ]
+}

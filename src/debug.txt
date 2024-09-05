@@ -1,0 +1,91 @@
+ /home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:263:76: error: could not convert ‘rowBreakLeftD’ from ‘uint16_t {aka short unsigned int}’ to ‘cv::Point {aka cv::Point_<int>}’
+                     line(track.pointsEdgeLeft, rowBreakLeftD, rowBreakLeftU);
+                                                                            ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:268:116: error: could not convert ‘rowBreakLeftD’ from ‘uint16_t {aka short unsigned int}’ to ‘cv::Point {aka cv::Point_<int>}’
+ dgeLeft, rowBreakLeftD, track.pointsEdgeLeft[track.pointsEdgeLeft.size() - 1]);
+                                                                              ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:282:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                     for(int i = 0; i < track.pointsEdgeLeft.size(); i++)
+                                    ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:306:79: error: could not convert ‘rowBreakRightD’ from ‘uint16_t {aka short unsigned int}’ to ‘cv::Point {aka cv::Point_<int>}’
+                    line(track.pointsEdgeRight, rowBreakRightD, rowBreakRightU);
+                                                                              ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:311:120: error: could not convert ‘rowBreakRightD’ from ‘uint16_t {aka short unsigned int}’ to ‘cv::Point {aka cv::Point_<int>}’
+ ight, rowBreakRightD, track.pointsEdgeRight[track.pointsEdgeRight.size() - 1]);
+                                                                              ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:325:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                     for(int i = 0; i < track.pointsEdgeRight.size(); i++)
+                                    ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:381:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                     for(int i = 0; i < track.spurroad.size(); i++)
+                                    ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:396:64: error: could not convert ‘0’ from ‘int’ to ‘cv::Point {aka cv::Point_<int>}’
+                     line(track.pointsEdgeLeft, 0, rowBreakLeftD);
+                                                                ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:400:104: error: could not convert ‘0’ from ‘int’ to ‘cv::Point {aka cv::Point_<int>}’
+ rack.pointsEdgeLeft, 0, track.pointsEdgeLeft[track.pointsEdgeLeft.size() - 1]);
+                                                                              ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:427:77: error: could not convert ‘rowBreakRightD’ from ‘uint16_t {aka short unsigned int}’ to ‘cv::Point {aka cv::Point_<int>}’
+                         line(track.pointsEdgeRight, rowBreakRightD, midPoint);
+                                                                             ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:428:74: error: could not convert ‘rowBreakMid’ from ‘uint16_t {aka short unsigned int}’ to ‘cv::Point {aka cv::Point_<int>}’
+                         line(track.pointsEdgeRight, rowBreakMid, endPoint);
+                                                                          ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:497:50: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                     for(int i = rowBreakLeftD; i < track.pointsEdgeLeft.size(); i++)
+                                                ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:547:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                     for(int i = 0; i < track.spurroad.size(); i++)
+                                    ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:563:66: error: could not convert ‘0’ from ‘int’ to ‘cv::Point {aka cv::Point_<int>}’
+                     line(track.pointsEdgeRight, 0, rowBreakRightD);
+                                                                  ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:566:107: error: could not convert ‘0’ from ‘int’ to ‘cv::Point {aka cv::Point_<int>}’
+ k.pointsEdgeRight, 0, track.pointsEdgeRight[track.pointsEdgeRight.size() - 1]);
+                                                                              ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:593:75: error: could not convert ‘rowBreakLeftD’ from ‘uint16_t {aka short unsigned int}’ to ‘cv::Point {aka cv::Point_<int>}’
+                         line(track.pointsEdgeLeft, rowBreakLeftD, midPoint);
+                                                                           ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:594:73: error: could not convert ‘rowBreakMid’ from ‘uint16_t {aka short unsigned int}’ to ‘cv::Point {aka cv::Point_<int>}’
+                         line(track.pointsEdgeLeft, rowBreakMid, endPoint);
+                                                                         ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:664:51: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                     for(int i = rowBreakRightD; i < track.pointsEdgeRight.size(); i++)
+                                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:711:75: error: could not convert ‘rowBreakRight’ from ‘uint16_t {aka short unsigned int}’ to ‘cv::Point {aka cv::Point_<int>}’
+                     line(track.pointsEdgeRight, rowBreakRight, pointBreakU);
+                                                                           ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:725:75: error: could not convert ‘rowBreakRight’ from ‘uint16_t {aka short unsigned int}’ to ‘cv::Point {aka cv::Point_<int>}’
+                     line(track.pointsEdgeRight, rowBreakRight, pointBreakU);
+                                                                           ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:744:111: error: could not convert ‘0’ from ‘int’ to ‘cv::Point {aka cv::Point_<int>}’
+ k.pointsEdgeRight, 0, track.pointsEdgeRight[track.pointsEdgeRight.size() - 1]);
+                                                                              ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:750:111: error: could not convert ‘0’ from ‘int’ to ‘cv::Point {aka cv::Point_<int>}’
+ k.pointsEdgeRight, 0, track.pointsEdgeRight[track.pointsEdgeRight.size() - 1]);
+                                                                              ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:790:73: error: could not convert ‘rowBreakLeft’ from ‘uint16_t {aka short unsigned int}’ to ‘cv::Point {aka cv::Point_<int>}’
+                     line(track.pointsEdgeLeft, rowBreakLeft, pointBreakU);
+                                                                         ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:804:73: error: could not convert ‘rowBreakLeft’ from ‘uint16_t {aka short unsigned int}’ to ‘cv::Point {aka cv::Point_<int>}’
+                     line(track.pointsEdgeLeft, rowBreakLeft, pointBreakU);
+                                                                         ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:823:108: error: could not convert ‘0’ from ‘int’ to ‘cv::Point {aka cv::Point_<int>}’
+ rack.pointsEdgeLeft, 0, track.pointsEdgeLeft[track.pointsEdgeLeft.size() - 1]);
+                                                                              ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:829:108: error: could not convert ‘0’ from ‘int’ to ‘cv::Point {aka cv::Point_<int>}’
+ rack.pointsEdgeLeft, 0, track.pointsEdgeLeft[track.pointsEdgeLeft.size() - 1]);
+                                                                              ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:893:63: error: could not convert ‘0’ from ‘int’ to ‘cv::Point {aka cv::Point_<int>}’
+                     line(track.pointsEdgeRight, 0, pointBreakU);
+                                                               ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:910:62: error: could not convert ‘0’ from ‘int’ to ‘cv::Point {aka cv::Point_<int>}’
+                     line(track.pointsEdgeLeft, 0, pointBreakU);
+                                                              ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:926:62: error: could not convert ‘0’ from ‘int’ to ‘cv::Point {aka cv::Point_<int>}’
+                     line(track.pointsEdgeLeft, 0, pointBreakU);
+                                                              ^
+/home/edgeboard/Desktop/sasu2024/src/src/recognition/ring.cpp:948:63: error: could not convert ‘0’ from ‘int’ to ‘cv::Point {aka cv::Point_<int>}’
+                     line(track.pointsEdgeRight, 0, pointBreakU);
+                                                               ^
+
